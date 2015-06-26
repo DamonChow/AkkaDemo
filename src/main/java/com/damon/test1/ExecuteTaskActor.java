@@ -6,7 +6,8 @@ import akka.actor.UntypedActor;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
 import org.apache.log4j.Logger;
-import scala.util.Random;
+
+import java.util.Random;
 
 /**
  * 功能：
@@ -27,7 +28,7 @@ public class ExecuteTaskActor extends UntypedActor {
 
     @Override
     public void preStart() throws Exception {
-        //这里一般进行初始化工作
+        //这里一般进行初始化工作⇒
         //logger.info("初始化角色。。。。。。。");
         log.info("初始化角色。。。。。。。");
     }
@@ -39,8 +40,7 @@ public class ExecuteTaskActor extends UntypedActor {
             //Future<Object> ask = Patterns.ask(taskReturnActor, new Object(), 1000l);
             //taskReturnActor.forward(new Object(), getContext());
             //getContext().stop(taskReturnActor);
-            //getContext().re
-            //ActorSelection.
+            //getContext().system().stop();
             //接收到前面发送过来的任务
             Task task = (Task) message;
             //logger.info(getSelf().toString() + "将会执行【" + task.getName() + "】");

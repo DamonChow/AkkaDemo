@@ -25,5 +25,8 @@
         <module name="AkkaDemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AkkaDemo" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -8,9 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11-sources.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11-sources.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11-sources.jar!/" />
-      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
