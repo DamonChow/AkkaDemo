@@ -1,9 +1,6 @@
 package com.damon.test2;
 
-import akka.actor.ActorRef;
-import akka.actor.ActorSystem;
-import akka.actor.Props;
-import akka.actor.UntypedActor;
+import akka.actor.*;
 import akka.routing.RoundRobinRouter;
 import scala.concurrent.duration.Duration;
 
@@ -96,6 +93,11 @@ public class Pi {
     public static class Master extends UntypedActor {
         private final int nrOfMessages;
         private final int nrOfElements;
+
+        @Override
+        public SupervisorStrategy supervisorStrategy() {
+            return super.supervisorStrategy();
+        }
 
         private double pi;
         private int nrOfResults;

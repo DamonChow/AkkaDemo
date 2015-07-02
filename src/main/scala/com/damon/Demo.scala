@@ -1,4 +1,6 @@
-import akka.actor.{Props, ActorSystem, ActorLogging, Actor}
+package com.damon
+
+import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
 
 /**
  * 功能：
