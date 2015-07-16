@@ -1599,3 +1599,6 @@
 16:46:14,144  INFO App:19 - å¯åŠ¨ä»»åŠ¡ï¼Œå¼€å§‹ï¼ï¼ï¼ï¼ï¼ï¼
 16:46:14,146  INFO App:20 - è·Ÿ[root]è·¯å¾„ï¼šakka://root
 16:46:14,147  INFO App:21 - executeTask[Actor[akka://root/user/executeTask#-1867957251]]è·¯å¾„ï¼šakka://root/user/executeTask
+15:27:29,202  INFO Main:19 - Æô¶¯ÈÎÎñ£¬¿ªÊ¼£¡£¡£¡£¡£¡£¡
+15:27:29,217  INFO Main:20 - ¸ú[root]Â·¾¶£ºakka://root
+15:27:29,217  INFO Main:21 - executeTask[Actor[akka://root/user/executeTask#776945718]]Â·¾¶£ºakka://root/user/executeTask
